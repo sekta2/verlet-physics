@@ -1,7 +1,7 @@
 local verlet = {}
 
 verlet.vector = require("vector")
-verlet.gravity = verlet.vector(0,500)
+verlet.gravity = verlet.vector(0,1000)
 
 function verlet.NextPosition(pos,vel)
     return pos + vel
