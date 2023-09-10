@@ -92,3 +92,10 @@ Resolves collisions between objects
 Updates the physics of all objects.
 ### verlet.draw(table objects)
 Draws objects in the form of circles with different sizes and colors.
+
+# Known bugs
+## The psyche of objects (no matter how strange it may sound)
+Moving a window, changing its size and constantly Alt+Tab provokes objects to go crazy.
+
+## looping all objects to check for collisions with one object?! shit.
+This optimization problem can be solved very easily, the [Pezzza's Work channel](https://www.youtube.com/@PezzzasWork) will [improve its physics engine and just replace the nasty loop with a system with grid cells](https://www.youtube.com/watch?v=9IULfQH7E90).
