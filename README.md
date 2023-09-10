@@ -3,6 +3,8 @@ A simple verlet physics for LÖVE
 I made this library using a [video](https://www.youtube.com/watch?v=lS_qeBy3aQI) from the [Pezzza's Work channel](https://www.youtube.com/@PezzzasWork), if you want to help with errors and generally improve the code, then please **fork** this repository.
 There may be a lot of illogical points in the code as I was working on this library late at night and wanted to sleep...zzZ
 
+![Demo](https://github.com/sekta2/verlet-physics/blob/main/gif1.gif?raw=true)
+
 ## Example
 ```
 local verlet = require("verlet")
@@ -96,6 +98,8 @@ Draws objects in the form of circles with different sizes and colors.
 # Known bugs
 ## The psyche of objects (no matter how strange it may sound)
 Moving a window, changing its size and constantly Alt+Tab provokes objects to go crazy.
+![Physics crazy!](https://github.com/sekta2/verlet-physics/blob/main/gif2.gif?raw=true)
+
 
 ## looping all objects to check for collisions with one object?! shit.
 This optimization problem can be solved very easily, the [Pezzza's Work channel](https://www.youtube.com/@PezzzasWork) will [improve its physics engine and just replace the nasty loop with a system with grid cells](https://www.youtube.com/watch?v=9IULfQH7E90).
