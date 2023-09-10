@@ -80,6 +80,7 @@ Adds a new speed of the object to the current one.
 #### obj:updatePosition(dt)
 Updates the position, used by the function `verlet.update(int dt,table objects)`.
 #### obj:accelerate(acc)
+Adds a new acceleration to the current one.
 
 ### (vec2 pos, int radius) verlet.getConstraint()
 Returns the position and radius of the circle in which objects can be located.
